@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 20px;
+   
+}
+
+.nav{
+    background-image: url(nav\ 4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 70px;
+    font-family: 'Corinthia', cursive;
+    font-size: 30px;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(31, 113, 160);
+    color: honeydew;
+}
+
+.nav a {
+    color: rgb(255, 255, 255);
+}
+
+.nav:hover {
+    color: honeydew;
+}
+body{
+    background-image: url("GT\ background\ ice.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* For class we use . */ 
+/* for id we use hashtag */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(231, 230, 228);
+    font-size: 35px;
+}
+
+.about-h2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: azure;
+}
+
+img {
+    background-image: url("Dragon queen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 90%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left:25%;
+    width: 50%;
+}
+
+/* #image2{
+    background-image: url("GT\ Characters\ .jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 90%;
+    display:flex;
+    flex-direction: center;
+    width: 50%;;
+    align-items: flex-end;
+} */
+
+p {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: azure;
+}
+
+.h2-left {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: azure;
+}
+
+#h3-left{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    color: azure;
+}
+
+.link a{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: azure;
+}
+
+.a:hover {
+    color:red;
+}
+
+
+#image4{
+    background-image: url("Jon\ snow.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 90%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left:25%;
+    width: 50%;
+
+}
+
+iframe{
+    margin-left:25%;
+}
